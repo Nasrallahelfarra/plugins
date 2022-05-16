@@ -4,13 +4,11 @@
 
 import 'dart:io' show Directory;
 
-import 'package:flutter/foundation.dart' show visibleForTesting;
 import 'package:path_provider_platform_interface/path_provider_platform_interface.dart';
 
 export 'package:path_provider_platform_interface/path_provider_platform_interface.dart'
     show StorageDirectory;
 
-@visibleForTesting
 @Deprecated('This is no longer necessary, and is now a no-op')
 set disablePathProviderPlatformOverride(bool override) {}
 
